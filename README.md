@@ -5,16 +5,16 @@ This project demonstrates secure AWS Identity and Access Management (IAM) config
 
 ## Features Implemented
 
-- 1. Created custom IAM policy: `ReadOnlyS3EC2Policy`
-- 2. Created IAM group: `adminsGroup`
-- 3. Created IAM user: `projectAdminUser`
-- 4. Attached user to group with permissions
-- 5. Enabled login profile with strong password
-- 6. Enforced strong password policy across account
-- 7.  Enabled MFA (Multi-Factor Authentication)
-- 8. Created S3 bucket for CloudTrail logs
-- 9. Applied S3 bucket policy for CloudTrail access
-- 10. Created and started CloudTrail trail for auditing
+ 1. Created custom IAM policy: `ReadOnlyS3EC2Policy`
+ 2. Created IAM group: `adminsGroup`
+ 3. Created IAM user: `projectAdminUser`
+ 4. Attached user to group with permissions
+ 5. Enabled login profile with strong password
+ 6. Enforced strong password policy across account
+ 7.  Enabled MFA (Multi-Factor Authentication)
+ 8. Created S3 bucket for CloudTrail logs
+ 9. Applied S3 bucket policy for CloudTrail access
+ 10. Created and started CloudTrail trail for auditing
 
 ## AWS Services Used
 
@@ -59,10 +59,10 @@ Grants read-only access to all EC2 and S3 resources.
 - Implement security best practices like MFA and password policy
 - Set up CloudTrail logging for traceability and auditing
 
-'''
-S3 URL: (s3://cloudtrail-logs-tejpathak-93127/AWSLogs/620558997567/CloudTrail/us-east-1/2025/07/08/)
-arn :(aws:s3:::cloudtrail-logs-tejpathak-93127)
-'''
+'
+- S3 URL: (s3://cloudtrail-logs-tejpathak-93127/AWSLogs/620558997567/CloudTrail/us-east-1/2025/07/08/)
+- arn :(aws:s3:::cloudtrail-logs-tejpathak-93127)
+'
 ##  Author
 
 **Tejaswi Pathak**  
