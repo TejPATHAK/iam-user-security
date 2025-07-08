@@ -59,10 +59,11 @@ Grants read-only access to all EC2 and S3 resources.
 - Implement security best practices like MFA and password policy
 - Set up CloudTrail logging for traceability and auditing
 
-'
-- S3 URL: (s3://cloudtrail-logs-tejpathak-93127/AWSLogs/620558997567/CloudTrail/us-east-1/2025/07/08/)
-- arn :(aws:s3:::cloudtrail-logs-tejpathak-93127)
-'
+- Bucket name: cloudtrail-logs-tejpathak-93127
+- Key (folder path): AWSLogs/620558997567/CloudTrail/us-east-1/2025/07/08/
+- (https://s3.amazonaws.com/cloudtrail-logs-tejpathak-93127/AWSLogs/620558997567/CloudTrail/us-east-1/2025/07/08/)
+- (https://s3.console.aws.amazon.com/s3/buckets/cloudtrail-logs-tejpathak-93127?prefix=AWSLogs/620558997567/CloudTrail/us-east-1/2025/07/08/&region=us-east-1)
+
 ##  Author
 
 **Tejaswi Pathak**  
